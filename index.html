@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./resources/css/index.css">
+    <title>CSS CheatSheet</title>
+</head>
+<body>
+    
+    <a class="banner" id="banner" data-test-label="banner" rel="noopener noreferrer" target="_blank" href="file:///C:/Users/mjavih/Desktop/projects/CSS%20Cheatsheet%20project/index.html#Fifth_Point_Header" text-variation="default">
+        <p id="banner-text">Most Important CSS concepts</p>
+    </a>
+  
+
+  
+    <div id="toc_container">
+        <p class="toc_title">Contents</p>
+        <ul class="toc_list">
+          <li><a href="#First_Point_Header">What is CSS?</a></li>
+        <li><a href="#Second_Point_Header">1.The CSS Cascade</a></li>
+        <li><a href="#Third_Point_Header">2. Inheritance</a></li>
+        <li><a href="#Fourth_Point_Header">3. Specificity</a></li>
+        <li><a href="#Fifth_Point_Header">4.The CSS Box Model</a></li>
+        <li><a href="#sixth_Point_Header">5. Margins, padding, and border</a></li>
+        <li><a href="#seventh_Point_Header">6. Display</a></li>
+        <li><a href="#eight_Point_Header">7. Float</a></li>
+        <li><a href="#ninth_Point_Header">8. Positioning</a></li>
+        <li><a href="#tenth_Point_Header">9. Media queries in CSS</a></li>
+        <li><a href="#eleventh_Point_Header">10. CSS Grid systems</a></li>
+        <li><a href="#conclusion_Point_Header">Conclusion</a></li>
+        </ul>
+        </div>
+
+    <h2 id="First_Point_Header">What is CSS?</h2>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button> 
+
+
+    <p>    Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in HTML or XML (including XML dialects such as SVG, MathML or XHTML). CSS describes how elements should be rendered on screen, on paper, in speech, or on other media.
+    </p>
+
+    <h2 id="Second_Point_Header">1.The CSS Cascade</h2>
+
+    <p>The CSS cascade is one of the most important concepts in CSS. The cascade simply means that the order of the style definitions matter when it comes to how they are applied to an element on the page. The first definition always takes precedence, and any definitions that follow will override any previously defined styles.
+    This is why it is important to always define your CSS in the correct order, and to use the most specific selector possible. If you don’t, you may end up with unwanted results.
+    </p>
+
+    <h2 id="Third_Point_Header">2. Inheritance</h2>
+
+    <p>Inheritance is the way that CSS properties are passed down from parent to child elements. If a property is not specified on an element, it will inherit the value from its parent.
+        Inheritance is a great way to save time and keep your code organized, as you only need to specify the properties that are unique to each element. The properties that are inherited will automatically be applied to all child elements.
+    </p>
+
+    <h2 id="Fourth_Point_Header">3. Specificity</h2>
+
+    <p>Specificity is a way of determining which style takes precedence when two styles have the same weight. The specificity of a style is determined by the number of selectors in the style declaration, as well as the weight of each selector.
+    The selector with the highest specificity will always take precedence, regardless of the order in which they are written. This is why it is important to use the most specific selector possible, as it will have the highest specificity.
+    </p>
+
+    <h2 id="Fifth_Point_Header">4. The CSS Box Model</h2>
+
+    <p>The box model is a way of representing HTML elements as boxes. It determines how the content of an element is positioned and sized, as well as the space around it.
+    There are six properties that make up the box model: width, height, padding, borders, margin and content.
+    </p>
+
+    <h2 id="sixth_Point_Header">5. Margins, padding, and borders</h2>
+
+    <p>Margins, padding, and borders are used to control the space around HTML elements.
+    Margins are the space between an element and its surrounding elements. Margins can be set in pixels, EMs, or percentages. The margin-left, margin-right, margin-top, and margin-bottom properties can be set to the same value or different values.
+    CSS padding is a way to add space between the content of an element and its border. This can be helpful for making sure text and other elements are evenly spaced, and it can also be used to create space between elements on a web page.
+    There are four different types of padding that can be used in CSS: top, bottom, left, and right. Each type has its own properties that can be customized to create the desired effect.
+    For example, if you want to add some space between the content of an element and its border on the right side, you would use the padding-right property. This would tell the browser to add a certain number of pixels of space between the element’s content and its border on the right-hand side.
+    Borders are the lines that appear around HTML elements. They can be used to create a frame around an element, or to add emphasis to it. There are three types of borders that can be used in CSS: solid, dashed, and dotted. Each type has its own set of properties that can be customized.
+    Its best that you understand the CSS Box Model before using these properties to avoid unwanted or confusing results.
+    </p>
+
+    <h2 id="seventh_Point_Header">6. Display</h2>
+
+    <p>Display determines how an element is displayed on the screen. There are six different display options, and each one can be applied to any HTML element.
+    The six display options are: block, inline, list-item, table, inline-block, and none.
+    Each of these options has its own specific effect and will help you style your websites appropriately and differently.
+    For example, if you want to make an element appear as a block-level element, you would use the block display property. This would tell the browser to treat the element as a separate block on the page, and it would be positioned accordingly.
+    On the other hand, if you want to make an element appear as an inline element, you would use the inline display property. This would tell the browser to treat the element as a part of the text and be positioned accordingly.
+    Many different properties can be used with each of these display options, which gives you a lot of control over how your elements are displayed.
+    Each display property has its own unique set of properties that can be customized to create the desired effect. By understanding these properties, you can effectively control the layout and appearance of your web pages.
+    </p>
+
+    <h2 id="eight_Point_Header">7. Float</h2>
+
+    <p>Float is a property that allows you to move an element to the left or right of its containing element. It can be used to create layouts with multiple columns.
+    Two properties control the float of an element and set the direction of the float, which determines where in a container the element is placed. By adding a float property, you allow surrounding text to wrap around an element.
+    The float property can have one of three values: left, right, and none, below are examples of how each float property would render in the broswer.</p>
+
+
+    <h2 id="ninth_Point_Header">8. Positioning</h2>
+
+    <p>Positioning allows you to control the location of an element on the page. There are four different positioning methods: static, relative, absolute, and fixed.
+    Each position has its own set of properties that can be customized to achieve the desired effect.
+    Static positioning is the default method, and it simply means that the element is positioned according to the natural flow of the document.
+    Relative positioning allows you to move an element relative to its current location.
+    Absolute positioning allows you to move an element to a specific location on the page.
+    Fixed positioning allows you to move an element to a specific location on the page and keep it in place even when the user scrolls the page.
+    Positioning comes in very handy if you want to explore things that animation in CSS – yes, animation is possible in CSS.
+    The properties that can be customized for positioning include the element’s position, margin, and padding.
+    </p>
+
+    <h2 id="tenth_Point_Header">9. Media queries in CSS</h2>
+
+    <p>Media queries allow you to specify different styles for different screen sizes and devices. You can use them to create layouts that look good on all devices or target specific devices with tailored styles.
+    You can learn more about how media queries work and device-specific breakpoints here.</p>
+
+    <h2 id="eleventh_Point_Header">10. CSS Grid systems</h2>
+
+    <p>Grid systems should be points 10 and 11 as you can use two different grid systems in CSS, namely the CSS grid and Flexbox.
+    Grid systems are a great way to create responsive layouts, and Flexbox is a newer grid system that is even more versatile. By understanding both of these grid systems, you can create layouts that look good on all devices.
+    Flexbox was designed specifically for responsive layouts. It is more versatile than the CSS grid and can be used to create both flexible and responsive layouts.</p>
+
+    <h2 id="conclusion_Point_Header">Conclusion</h2>
+
+    <p>CSS is a complex language, but by understanding these concepts, you will be able to create layouts that look great on all devices. These concepts are also essential for anyone who wants to become a front-end web developer.
+    Getting a solid understanding of the basics of any language will help you in your coding journey and make you more confident when learning other programming languages.      
+    </p>
+
+ 
+</body>
+
+
+<footer class="bg-white">
+    <div class="container py-5">
+
+    <div class="bg-light py-4">
+      <div class="container text-center">
+        <p class="text-muted mb-0 py-2">©Jvierr 2023</p>
+      </div>
+    </div>
+     </div>
+
+
+  </footer>
+</html>
